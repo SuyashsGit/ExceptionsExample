@@ -1,4 +1,4 @@
-package com.sparta.exceptions;
+package com.sparta.exceptions.divideByZeroException;
 
 public class Calculator {
     public static int divide(int num1, int num2){

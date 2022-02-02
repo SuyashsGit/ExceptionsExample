@@ -1,4 +1,4 @@
-package com.sparta.exceptions;
+package com.sparta.exceptions.divideByZeroException;
 
 public class DivideByZeroException extends ArithmeticException
 {

@@ -1,7 +1,7 @@
-package com.sparta.exceptionsTest;
+package com.sparta.exceptionsTest.divideByZeroExceptionTest;
 
-import com.sparta.exceptions.Calculator;
-import com.sparta.exceptions.DivideByZeroException;
+import com.sparta.exceptions.divideByZeroException.Calculator;
+import com.sparta.exceptions.divideByZeroException.DivideByZeroException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
