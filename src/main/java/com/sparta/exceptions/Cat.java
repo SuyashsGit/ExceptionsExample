@@ -12,7 +12,9 @@ public class Cat
         try {
             name = name.toUpperCase();
         }catch(NullPointerException e)
-        {  //NullPointerException is a subclass of Runtime exception--> no need to provide exception handling code
+        {
+            CatDriver.logger.error("Error occured!");
+            //NullPointerException is a subclass of Runtime exception--> no need to provide exception handling code
             throw new CatException("Cat exception occured!", e);
             //throw e;  //--> to report the exception error--> and this will exit the program after that and won't continue.
         }finally

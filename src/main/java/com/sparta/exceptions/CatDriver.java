@@ -5,13 +5,13 @@ import java.text.ParseException;
 
 public class CatDriver
 {
-    private static Logger logger = LogManager.getLogger("Cat Logger");
+    public static Logger logger = LogManager.getLogger("Cat Logger");
 
     public static void main(String[] args)
     {
         Cat angel = new Cat();
 
-        logger.error("Just created a cat object");
+        logger.info("Just created a cat object");
 
         try{
         System.out.println(angel.meow("Angel"));

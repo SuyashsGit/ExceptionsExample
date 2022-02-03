@@ -6,3 +6,5 @@ FILE [INFO ] 2022-02-02 14:19:56,128 main Cat Logger - Just created a cat object
 FILE [ERROR] 2022-02-02 14:20:30,758 main Cat Logger - Just created a cat object
 FILE [FATAL] 2022-02-02 14:21:28,207 main Cat Logger - Just created a cat object
 FILE [ERROR] 2022-02-02 14:21:45,848 main Cat Logger - Just created a cat object
+FILE [ERROR] 2022-02-02 14:34:40,801 main Cat Logger - Just created a cat object
+FILE [INFO ] 2022-02-02 14:35:26,953 main Cat Logger - Just created a cat object
